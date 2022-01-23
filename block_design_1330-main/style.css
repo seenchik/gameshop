@@ -243,3 +243,39 @@ font-size: 14px;
 }
 
 /* NEWS PAGE END */
+
+
+/* CONTACTS PAGE START */
+
+#contacts_page_main section {
+	width: 1100px;
+	margin: 0 auto 70px auto;
+
+}
+
+#contacts_page_main section::after {
+
+	content: "";
+	clear: both;
+	display: block;
+
+}
+
+#contacts_page_main section iframe, #contacts_page_main section aside {
+display: block;
+widows: 550px;
+float: left;
+
+}
+
+ #contacts_page_main section aside ul li {
+margin: 0 0 10px 0;
+font-size: 20px;
+font-weight: 700;
+ }
+
+ #contacts_page_main section aside ul li a {
+color: gold;
+ }
+
+/* CONTACTS PAGE END */
